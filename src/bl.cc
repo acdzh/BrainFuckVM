@@ -158,7 +158,7 @@ void run(
           if(bracketCounts == 0) {subSEnd; break;}
         }
         sIndex ++;
-        for(;*ramIndex;sub--)run(RAM, programText, sIndex, subSEnd, ramIndex);
+        for(;*ramIndex;sub--) run(RAM, programText, sIndex, subSEnd, ramIndex);
         sIndex = subSEnd++;
         printRam(RAM, ']');
         break;
