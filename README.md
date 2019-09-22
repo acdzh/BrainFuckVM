@@ -1,13 +1,13 @@
 # BrainFuckVM
 a brainFuck virtual machine uesd cpp
 
-## start: 
+## start
 
 ```sh
 make
 ```
 
-## use:
+## use
 
 ```sh
 bl [/d] filename1 filename2
@@ -34,7 +34,7 @@ Fill in the number n. E.g. (10), (-23), (+ 33)
 {n} Print n characters from the current address.
 
 5. ? 输出当前地址的内容的ascii码值. 例如 `"a".` 输出 `a`, `"a"?` 输出 `(97)`.
-Output the ASCII code value of the current address content. For example ``a''. `output `a`, `"a"? `output` (97)`.
+Output the ASCII code value of the current address content. For example `"a".` output `a`, `"a"?` output` (97)`.
 
 ## test
 
